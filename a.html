@@ -41,8 +41,8 @@
   }
   #redirectTo {
             position: fixed; /* 固定定位 */
-            top: 10px;       /* 距离顶部10px */
-            left: 10px;      /* 距离左边10px */
+            top: 0px;       /* 距离顶部10px */
+            left: 0px;      /* 距离左边10px */
             background-color: #4CAF50; /* 背景颜色 */
             color: white;     /* 文字颜色 */
             padding: 10px 20px; /* 内边距 */
@@ -55,9 +55,7 @@
 </head>
 <body>
 <div class="container">
-   <div class="header">
-        <button id="backButton" onclick="goBack()">返回</button>
-    </div>
+   
   <h1>欢迎</h1>
   <p>*<(¦Q[▓▓  呼呼呼。。。。﻿</p>
   <p>继续探索，发现更多惊喜！</p>
@@ -66,7 +64,7 @@
 
 <script>
     function redirectTo {
-        window.open('https://www.example.com', '_blank');
+        window.open('index.html', '_blank');
     }
 </script>
 </body>
