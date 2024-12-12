@@ -39,13 +39,28 @@
     border-radius: 5px;
     margin-top: 20px;
   }
+  #backButton {
+    background-color: #f1c40f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
 </style>
 </head>
 <body>
 <div class="container">
+   <div class="header">
+        <button id="backButton" onclick="goBack()">返回</button>
+    </div>
   <h1>欢迎</h1>
   <p>*<(¦Q[▓▓  呼呼呼。。。。﻿</p>
   <p>继续探索，发现更多惊喜！</p>
 </div>
+  <script>
+    function goBack() {
+    window.history.back();
+}
+  </script>
 </body>
 </html>
