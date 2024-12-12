@@ -62,6 +62,9 @@ function checkPassword() {
   var message = document.getElementById('message');
   if (password === '徐某人') {
     message.style.display = 'block';
+    setTimeout(function() {
+      window.location.href = 'a.html'; // 跳转到下一个页面
+    }, 5000);
   } else {
     message.style.display = 'none';
   }
